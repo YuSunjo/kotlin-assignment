@@ -7,6 +7,8 @@ class BaseballController(
 ) {
     fun play() {
         // 게임 시작
-        baseballFacade.startGame()
+        while (true) {
+            baseballFacade.startGame()
+        }
     }
 }
